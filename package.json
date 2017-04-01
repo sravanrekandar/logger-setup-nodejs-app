@@ -1,0 +1,19 @@
+{
+  "name": "logger-setup-nodejs-app",
+  "version": "1.0.0",
+  "description": "Logger setup ",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/sravanrekandar/logger-setup-nodejs-app.git"
+  },
+  "author": "sravanrekandar@gmail.com <Sravan Rekandar>",
+  "license": "MIT",
+  "dependencies": {
+    "winston": "^2.3.1",
+    "winston-daily-rotate-file": "^1.4.6"
+  }
+}
