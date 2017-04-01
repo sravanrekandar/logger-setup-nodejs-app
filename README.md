@@ -26,6 +26,11 @@ const LOGS_ROOT = path.join(__dirname, 'app-logs')
 If you are using the logger in index.js, from line 33,
 The logger would effect logging into app-logs/<YYYY-MM-DD>.log file. Along with the file name and line number
 ```
+const logger = require('./logger)
+.
+.
+.
+// Assuming the below line is 33rd line
 logger.info('Started logging')
 
 ```
